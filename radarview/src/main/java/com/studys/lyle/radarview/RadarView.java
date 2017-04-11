@@ -133,8 +133,8 @@ public class RadarView extends View {
     }
 
     public void stopSweep() {
-        mRotateAngel=0;
+//        mRotateAngel=0;
 //        mMatrix.preRotate(mRotateAngel, 0, 0);
-//        mHandler.removeCallbacksAndMessages(null);
+        mHandler.removeCallbacksAndMessages(null);
     }
 }
